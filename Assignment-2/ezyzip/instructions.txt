@@ -1,0 +1,6 @@
+##openjdk 8##
+
+idlj -fall Conc.idl
+javac Server.java Conc/*.java
+javac Client.java Conc/*.java
+javac ConcServer.java Conc/*.java
